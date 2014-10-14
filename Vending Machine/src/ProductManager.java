@@ -6,5 +6,4 @@ public class ProductManager
 	//private Product product;
 	private int quantity;
 	
-	
 	}
