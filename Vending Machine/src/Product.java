@@ -11,9 +11,17 @@ public class Product
 		}
 	// The cost of the snack (in cents).
 	private int costInCents;
+	public int getCostInCents()
+		{
+		return costInCents;
+		}
 	
 	//public static int[] getPrice()
-	
+	private double price;
+	public double getPrice()
+		{
+		return price;
+		}
 	public static void countNumberOfLines() throws IOException
 		{
 	//make counter for how many number of products their are in the vending machine
