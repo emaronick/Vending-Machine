@@ -3,7 +3,7 @@ public class ProductManager
 	{
 	private static String nextItemCode = "A1";
 	private String itemCode;
-	//private Product product;
+	private Product product;
 	private int quantity;
 	
 	public static String getItemCode()
@@ -11,10 +11,10 @@ public class ProductManager
 		return null;
 		}
 	
-//	public static Product getProduct()
-//		{
-//		return null;
-//		}
+	public static Product getProduct()
+		{
+		return null;
+		}
 	
 	public static void incrimentItemCode()
 		{

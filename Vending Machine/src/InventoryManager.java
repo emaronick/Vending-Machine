@@ -4,7 +4,7 @@ public class InventoryManager
 	{
 	private ArrayList<ProductManager> allProducts;
 	
-//	public static void addProduct(Product product, int quantity)
+	public static void addProduct(Product product, int quantity)
 		{
 		
 		}
@@ -34,8 +34,8 @@ public class InventoryManager
 		return null;
 		}
 	
-//	public static java.util.ArrayList<Product> productsByPrice(int[] price)
-//		{
-//		return null;
-//		}
+	public static java.util.ArrayList<Product> productsByPrice(int[] price)
+		{
+		return null;
+		}
 	}
