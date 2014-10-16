@@ -2,13 +2,13 @@
 public class ProductManager
 	{
 	private static String nextItemCode = "A1";
-	private String itemCode;
-	private Product product;
+	private static String itemCode;
+	private static Product product;
 	private int quantity;
 	
 	public static String getItemCode()
 		{
-		return null;
+		return itemCode;
 		}
 	
 	public static Product getProduct()
