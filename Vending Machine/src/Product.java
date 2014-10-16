@@ -4,21 +4,21 @@ public class Product
 
 	{
 	// The name of the snack.
-	private String snackName;
-	public String getSnackName()
+	private static String snackName;
+	public static String getSnackName()
 		{
 		return snackName;
 		}
 	// The cost of the snack (in cents).
-	private int costInCents;
-	public int getCostInCents()
+	private static int costInCents;
+	public static int getCostInCents()
 		{
 		return costInCents;
 		}
 	
 	//public static int[] getPrice()
-	private double price;
-	public double getPrice()
+	private static double price;
+	public static double getPrice()
 		{
 		return price;
 		}
